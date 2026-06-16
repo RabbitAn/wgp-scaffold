@@ -11,7 +11,7 @@
 
 param(
     [Parameter(Mandatory = $true, Position = 0, HelpMessage = "Project name, e.g. MyApp")]
-    [ValidatePattern('^[A-Za-z][A-Za-z0-9]*$', ErrorMessage = "Project name must start with a letter and contain only letters and digits")]
+    [ValidatePattern('^[A-Za-z][A-Za-z0-9]*$')]
     [string]$ProjectName,
 
     [Parameter(Position = 1, HelpMessage = "Output directory (default: current directory)")]
