@@ -2,8 +2,8 @@
 #
 # Installs the `wgp` CLI from GitHub into ~/.wgp and adds it to user PATH.
 #
-# One-line install (replace OWNER and REPO with your GitHub values):
-#   $owner="OWNER"; $repo="REPO"; irm "https://raw.githubusercontent.com/$owner/$repo/main/install.ps1" | iex
+# One-line install:
+#   irm https://raw.githubusercontent.com/RabbitAn/wgp-scaffold/main/install.ps1 | iex
 #
 # After install, RESTART your terminal, then run:
 #   wgp new MyApp
