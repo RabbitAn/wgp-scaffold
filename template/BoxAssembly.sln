@@ -1,0 +1,55 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+
+# 项目引用
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoxAssembly.Web", "BoxAssembly.Web\BoxAssembly.Web.csproj", "{9A62EEDA-2203-4C3A-B6B0-D9E1CB1D38AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoxAssembly.Domain", "BoxAssembly.Domain\BoxAssembly.Domain.csproj", "{0B20087A-5D42-48B8-AADC-826CE8B703BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoxAssembly.Application", "BoxAssembly.Application\BoxAssembly.Application.csproj", "{E12A9A09-1E40-49AA-9577-DA08EF72A1FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoxAssembly.Application.Contracts", "BoxAssembly.Application.Contracts\BoxAssembly.Application.Contracts.csproj", "{5C7A7513-50B7-47FF-8D05-DB45975AB948}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoxAssembly.EntityFrameworkCore", "BoxAssembly.EntityFrameworkCore\BoxAssembly.EntityFrameworkCore.csproj", "{533110FB-2CC3-430E-9451-8BADD6A1BAB8}"
+EndProject
+
+# 源码文件夹
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3DB8CD21-7745-4395-91C8-E175418E2719}"
+EndProject
+
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A62EEDA-2203-4C3A-B6B0-D9E1CB1D38AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A62EEDA-2203-4C3A-B6B0-D9E1CB1D38AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A62EEDA-2203-4C3A-B6B0-D9E1CB1D38AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A62EEDA-2203-4C3A-B6B0-D9E1CB1D38AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B20087A-5D42-48B8-AADC-826CE8B703BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B20087A-5D42-48B8-AADC-826CE8B703BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B20087A-5D42-48B8-AADC-826CE8B703BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B20087A-5D42-48B8-AADC-826CE8B703BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E12A9A09-1E40-49AA-9577-DA08EF72A1FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E12A9A09-1E40-49AA-9577-DA08EF72A1FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E12A9A09-1E40-49AA-9577-DA08EF72A1FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E12A9A09-1E40-49AA-9577-DA08EF72A1FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C7A7513-50B7-47FF-8D05-DB45975AB948}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C7A7513-50B7-47FF-8D05-DB45975AB948}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C7A7513-50B7-47FF-8D05-DB45975AB948}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C7A7513-50B7-47FF-8D05-DB45975AB948}.Release|Any CPU.Build.0 = Release|Any CPU
+		{533110FB-2CC3-430E-9451-8BADD6A1BAB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{533110FB-2CC3-430E-9451-8BADD6A1BAB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{533110FB-2CC3-430E-9451-8BADD6A1BAB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{533110FB-2CC3-430E-9451-8BADD6A1BAB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+
+	GlobalSection(NestedProjects) = preSolution
+		{9A62EEDA-2203-4C3A-B6B0-D9E1CB1D38AB} = {3DB8CD21-7745-4395-91C8-E175418E2719}
+		{0B20087A-5D42-48B8-AADC-826CE8B703BD} = {3DB8CD21-7745-4395-91C8-E175418E2719}
+		{E12A9A09-1E40-49AA-9577-DA08EF72A1FB} = {3DB8CD21-7745-4395-91C8-E175418E2719}
+		{5C7A7513-50B7-47FF-8D05-DB45975AB948} = {3DB8CD21-7745-4395-91C8-E175418E2719}
+		{533110FB-2CC3-430E-9451-8BADD6A1BAB8} = {3DB8CD21-7745-4395-91C8-E175418E2719}
+	EndGlobalSection
+EndGlobal

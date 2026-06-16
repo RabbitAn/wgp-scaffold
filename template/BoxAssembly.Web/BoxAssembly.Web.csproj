@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.9" />
+        <PackageReference Include="Volo.Abp.AspNetCore.Mvc" Version="10.5.0-rc.2" />
+        <PackageReference Include="Volo.Abp.Autofac" Version="10.5.0-rc.2" />
+        <PackageReference Include="Volo.Abp.EntityFrameworkCore.PostgreSql" Version="10.5.0-rc.2" />
+        <PackageReference Include="Volo.Abp.Swashbuckle" Version="10.5.0-rc.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\BoxAssembly.Application.Contracts\BoxAssembly.Application.Contracts.csproj" />
+        <ProjectReference Include="..\BoxAssembly.Application\BoxAssembly.Application.csproj" />
+        <ProjectReference Include="..\BoxAssembly.EntityFrameworkCore\BoxAssembly.EntityFrameworkCore.csproj" />
+    </ItemGroup>
+
+</Project>

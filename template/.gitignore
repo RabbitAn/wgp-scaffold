@@ -1,0 +1,26 @@
+# .NET 构建输出
+bin/
+obj/
+
+# NuGet 包
+/packages/
+
+# Rider / ReSharper 缓存
+riderModule.iml
+/_ReSharper.Caches/
+.idea/
+
+# Visual Studio
+.vs/
+
+# 用户级配置
+*.user
+*.suo
+
+# 编译产物
+*.dll
+*.pdb
+*.exe
+
+# 发布输出
+publish/
