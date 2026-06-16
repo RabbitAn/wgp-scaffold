@@ -6,10 +6,16 @@ ABP Framework 最小化项目脚手架,一行命令安装,随处可用。
 
 ## 🚀 安装
 
-PowerShell 中执行(只需一次):
+只需执行一次:
 
+**PowerShell:**
 ```powershell
 irm https://raw.githubusercontent.com/RabbitAn/wgp-scaffold/main/install.ps1 | iex
+```
+
+**CMD:**
+```cmd
+powershell -ExecutionPolicy Bypass -c "irm https://raw.githubusercontent.com/RabbitAn/wgp-scaffold/main/install.ps1 | iex"
 ```
 
 重启终端后,`wgp` 即可全局使用。
@@ -28,8 +34,14 @@ wgp                            # 查看帮助
 
 ## 🗑️ 卸载
 
+**PowerShell:**
 ```powershell
 irm https://raw.githubusercontent.com/RabbitAn/wgp-scaffold/main/uninstall.ps1 | iex
+```
+
+**CMD:**
+```cmd
+powershell -ExecutionPolicy Bypass -c "irm https://raw.githubusercontent.com/RabbitAn/wgp-scaffold/main/uninstall.ps1 | iex"
 ```
 
 ---
